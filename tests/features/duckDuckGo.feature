@@ -4,5 +4,5 @@ Feature: DuckDuckGo Web Browsing
     So I can learn new things and get tasks done.
 
     Scenario: Basic DuckDuckGo Search
-        given the DuckDuckGo home page is displayed
-        when the user searches for python
+        Given the DuckDuckGo home page is displayed
+        When the user searches for python

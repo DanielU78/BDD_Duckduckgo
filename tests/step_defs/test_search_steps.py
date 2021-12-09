@@ -23,3 +23,7 @@ def ddg_home(browser):
 def search_phrase(browser):
     search_input = browser.find_element(By.ID, 'search_form_input_homepage')
     search_input.send_keys("python" + Keys.RETURN)
+
+
+
+
